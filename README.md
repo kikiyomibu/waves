@@ -3,6 +3,9 @@ supposed to be about making waves
 
 
 MY STORY SRY I HAVE TO COPY AND PASTE AND TRANSFER HERE
+
+titles canidates: song of the cricket, the hummingbird's song, hummingbird, cricket, noiseless, 
+
 silent world
 
 people only speak at home and at work
