@@ -85,7 +85,9 @@ I COULD END IT HERE AND I MIGHT
 IF I DID A VIDEO IT WOULD END WITH HIM BEING TRANSPORTED AND A COOL MONTAGE OF HIM FLOATING THROUGH SPACE/THE UNIVERSE
 KINDA DRAWING INSPIRATION FROM TAME IMPALA MIND MISCHIEF MUSIC VIDEO
 
+in the cool montage include hummingbird and cricket
 
+otherwise include shot at the end of hummingbird and then cricket
 
 
 
