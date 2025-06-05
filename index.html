@@ -1,136 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<title>Kiyomi Burke</title>
-
-<style>
-  body {
-      margin: 0;
-      padding: 0;
-      font-family: Helvetica; }
-
-  h2 { font-size: 50px; color: black; margin: 0; }
-  h4 { font-size: 35px; color: black; margin: 0; }
-
-  header {
-      max-width: 100%;
-      background-color: rgb(193, 225, 157);
-      margin-top: -10px;
-      z-index: 11;
-      position: fixed;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px; }
-
-  .header-content { display: flex; align-items: center; }
-  .logo { max-width: 50px; max-height: auto; margin-right: 20px; }
-  h1 { margin: 0; color: white; }
-  header ul { list-style-type: none; display: flex; margin: 0; padding: 0; }
-  header ul li { margin-left: 20px; }
-  header ul li a { color: white; text-decoration: none; }
-  .overlay-box { 
-    position: absolute; 
-    top: 0;
-    right: 0;
-    max-width: 150px;
-    max-height: 100%;
-    background-color: rgba(193, 225, 157, 0.7);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    text-align: center; }
-  nav { color: #ffffff; background-color: white; height: 30px; font-size: 50; padding: 7px 0px 0px 0px; }
-  #central-portfolio-section { display: flex; flex-wrap: wrap; gap: 15px; padding: 20px; }
-  #central-project { flex: 100%; max-width: 1920px; margin: 0; text-align: center; margin-top: 20px; }
-  .container { display: flex; max-width: 1920px; margin: 0 auto; padding: 20px; }
-  .left-column, .middle-column, .right-column { width: 48%; }
-  .left-column h1, .middle-column h1, .right-column h1 { font-weight: bold; }
-  .left-column img, .middle-column img, .right-column img { max-width: 100%; max-width: 500px; max-height: 450px; display: block; padding: 20px; }
-  .video-wrapper { display: flex; justify-content: center; margin: 50px auto; max-width: 1920px; width: 100%; }
-  .video-container { display: flex; align-items: flex-start; gap: 20px; width: 100%; max-width: 1920px; }
-  .video-text { flex: 1; color: white; font-size: 50px; background-color: black; padding: 10px; max-width: 400px; margin-left: 20px; }
-  .yt-embeded-holder { flex: 4; position: relative; max-width: 100%; max-height: 0; padding-bottom: 40%; overflow: hidden; }
-  .yt-embeded-holder img { position: absolute; top: 0; left: 0; max-width: 100%; max-height: 100%; object-fit: cover; /* Ensure the image covers the container */}
-</style>
-</head> 
-  
-<body> 
-  <header> 
-    <div class="header-content"> 
-      <h1>Kiyomi Burke</h1> 
-    </div> 
-    <ul> 
-      <li><a href="pages/projects.html">Projects</a></li> 
-      <li><a href="pages/capability.html">Capability</a></li> 
-      <li><a href="pages/aboutMe.html">About Me</a></li>  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Kiyomi Burke</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Kiyomi Burke</h1>
+    </div>
+    <ul>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/capability.html">Capability</a></li>
+      <li><a href="pages/aboutMe.html">About Me</a></li>
       <li><a href="pages/contact.html">Contact</a></li>
-    </ul> 
+    </ul>
   </header>
 
-  <!-- Toggle Menu Script -->
-  <script>
-    function toggleMenu() {
-      document.querySelector('header ul').classList.toggle('active');
-    }
-  </script>
-
   <section id="central-portfolio-section">
-    
-    <!-- First Video -->
+    <!-- First Placeholder -->
     <div id="central-project">
-      <div class="video-wrapper">
-        <div class="video-container">
-          <div class="video-text">
-            <h2><br>The Goatman<br></h2>
-            <h4><br>2025 Short Film<br> <br> A painted journey through <br> a strange world<br></h4>
-          </div>
-          <div class="yt-embeded-holder">
-            <a href="https://www.youtube.com/watch?v=_8m2P_TAWSE" target="_blank">
-              <img src="https://img.youtube.com/vi/_8m2P_TAWSE/maxresdefault.jpg" alt="The Goatman">
-            </a>
-          </div>
-        </div>
+      <div class="placeholder-box">
+        <h2>The Goatman</h2>
+        <h4>2025 Short Film<br>A painted journey through a strange world</h4>
+        <div class="placeholder-content">YOUR ANIMATION HERE</div>
       </div>
     </div>
-    <!-- end of video -->
-    
-    <!-- Second Video -->
+
+    <!-- Second Placeholder -->
     <div id="central-project">
-      <div class="video-wrapper">
-        <div class="video-container">
-          <div class="video-text">
-            <h2><br>The Call<br></h2>
-            <h4><br>2024 Short film.<br> <br> </vr>A Kafkaesque <br>reflection <br> of modern <br> digital life.</h4>
-          </div>
-          <div class="yt-embeded-holder">
-            <a href="https://www.youtube.com/watch?v=85gvlt7RyTA" target="_blank">
-              <img src="https://img.youtube.com/vi/85gvlt7RyTA/maxresdefault.jpg" alt="The Call">
-            </a>
-          </div>
-        </div>
+      <div class="placeholder-box">
+        <h2>The Call</h2>
+        <h4>2024 Short Film<br>A Kafkaesque reflection of modern digital life</h4>
+        <div class="placeholder-content">YOUR ANIMATION HERE</div>
       </div>
     </div>
-    <!-- end of video -->
-    
-    <!-- Third Video -->
+
+    <!-- Third Placeholder -->
     <div id="central-project">
-      <div class="video-wrapper">
-        <div class="video-container">
-          <div class="video-text">
-            <h2>Bound by Boards<br></h2>
-            <h4><br>2025 Short Doc<br> Connections made <br> through griptape.<br> <br> Credt: DP</h4>
-          </div>
-          <div class="yt-embeded-holder">
-            <a href="https://www.youtube.com/watch?v=84KcwAFeiZg" target="_blank">
-              <img src="https://img.youtube.com/vi/84KcwAFeiZg/maxresdefault.jpg" alt="Bound by Boards">
-            </a>
-          </div>
-        </div>
+      <div class="placeholder-box">
+        <h2>Bound by Boards</h2>
+        <h4>2025 Short Doc<br>Connections made through griptape<br>Credit: DP</h4>
+        <div class="placeholder-content">YOUR ANIMATION HERE</div>
       </div>
     </div>
+  </section>
 </body>
 </html>
