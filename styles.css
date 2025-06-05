@@ -2,14 +2,12 @@
 body {
   margin: 0;
   font-family: 'Helvetica', sans-serif;
-  background-color: white;
-  color: black;
+  background-color: slateblue;
 }
 
 header {
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: darkcyan;
   position: fixed;
   top: 0;
   padding: 10px 0;
@@ -34,11 +32,11 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: blue;
 }
 
 a:hover {
-  color: gray;
+  color: Red ;
 }
 
 /* Mobile Responsiveness */
@@ -67,7 +65,7 @@ a:hover {
   text-align: center;
   margin: 20px auto;
   padding: 20px;
-  border: 2px dashed black;
+  border: 2px dashed greenyellow;
   background-color: #f9f9f9;
 }
 
@@ -76,7 +74,7 @@ a:hover {
   padding: 50px;
   font-size: 18px;
   font-weight: bold;
-  color: gray;
-  background-color: #eaeaea;
-  border: 1px solid #ccc;
+  color: purple;
+  background-color: yellow;
+  border: 1px solid orange;
 }
